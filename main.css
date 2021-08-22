@@ -99,3 +99,16 @@ button {
     font-size: 1.8rem;
     margin: 0 .8rem;
 }
+
+.btn-random {
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(253, 103, 103, 0.842);
+    padding: .6rem 1rem;
+    border-radius: 10px;
+    font-size: 1.4rem;
+}

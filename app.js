@@ -43,6 +43,7 @@ const staff_Job = document.querySelector('#job');
 const testimonial = document.querySelector('#testimonial');
 const img = document.querySelector('img');
 const btns = document.querySelectorAll('button');
+const randomImg = document.querySelector('a.random');
 
 let counter = 0;
 
@@ -77,3 +78,10 @@ btns.forEach((btn)=> {
     })
 });
 
+randomImg.addEventListener('click', ()=> {
+    counter = getRandomNum();
+    display(counter);
+})
+function getRandomNum() {
+    return Math.floor(Math.random() * allReviews.length);
+}
